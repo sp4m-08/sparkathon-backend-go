@@ -6,7 +6,7 @@ A Go-based backend service that enables barcode scanning, product lookup, and AI
 
 - `https://upc-backend-go.onrender.com/`
 
-## 📡 API Endpoints
+## API Endpoints
 
 ### Product & Chat System
 
@@ -122,7 +122,7 @@ GET /products/chat/health
 }
 ```
 
-## 🚀 Features
+## Features
 
 - **Product Scanning System** - UPC barcode scanning and product lookup
 - **AI-Powered Chat** - Intelligent product conversations using LLM
@@ -134,7 +134,7 @@ GET /products/chat/health
 - **Environment Configuration** - Flexible configuration management
 - **Health Monitoring** - LLM service health checks
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before running this project, make sure you have the following installed:
 
@@ -143,7 +143,7 @@ Before running this project, make sure you have the following installed:
 - Docker (optional, for containerized deployment)
 - Git
 
-## 🔧 Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the Repository
 
