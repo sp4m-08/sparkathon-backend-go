@@ -2,21 +2,9 @@
 
 A Go-based backend service that enables barcode scanning, product lookup, and AI-powered conversations about products. Users can scan UPC codes to retrieve product information and engage in intelligent chat sessions about the products using an integrated LLM service.
 
-## 🚀 Features
-
-- **Product Scanning System** - UPC barcode scanning and product lookup
-- **AI-Powered Chat** - Intelligent product conversations using LLM
-- **Session Management** - Persistent chat sessions with product context
-- **Database Integration** - PostgreSQL with GORM for product storage
-- **External LLM API** - Integration with Spark AI service
-- **RESTful API** - Clean and well-structured REST endpoints
-- **Error Handling** - Comprehensive error handling and logging
-- **Environment Configuration** - Flexible configuration management
-- **Health Monitoring** - LLM service health checks
-
 ## Server
 
-- `URL: http://localhost:8080`
+- `https://upc-backend-go.onrender.com/`
 
 ## 📡 API Endpoints
 
@@ -133,6 +121,18 @@ GET /products/chat/health
   "database": "connected"
 }
 ```
+
+## 🚀 Features
+
+- **Product Scanning System** - UPC barcode scanning and product lookup
+- **AI-Powered Chat** - Intelligent product conversations using LLM
+- **Session Management** - Persistent chat sessions with product context
+- **Database Integration** - PostgreSQL with GORM for product storage
+- **External LLM API** - Integration with Spark AI service
+- **RESTful API** - Clean and well-structured REST endpoints
+- **Error Handling** - Comprehensive error handling and logging
+- **Environment Configuration** - Flexible configuration management
+- **Health Monitoring** - LLM service health checks
 
 ## 📋 Prerequisites
 

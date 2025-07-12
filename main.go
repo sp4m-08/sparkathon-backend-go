@@ -2,6 +2,7 @@ package main
 
 import (
 	"log"
+	"os"
 	"upc-backend-sparkathon/main/routes"
 	"upc-backend-sparkathon/main/services"
 
@@ -18,7 +19,10 @@ func main() {
 	})
 	routes.RegisterProductRoutes(r)
 
-	port := "8080"
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "8080"
+	}
 	log.Printf("Server running at: http://localhost:%s\n", port)
 
 	err := r.Run(":" + port)

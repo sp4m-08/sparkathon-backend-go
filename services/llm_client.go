@@ -6,9 +6,10 @@ import (
 	"fmt"
 	"io/ioutil"
 	"net/http"
+	"os"
 )
 
-const LLM_API_BASE = "https://spark-ai-1rd9.onrender.com" // or your deployed URL
+var LLM_API_BASE = os.Getenv("LLM_URL") // or your deployed URL
 
 type SetContextRequest struct {
 	Context   map[string]interface{} `json:"context"`
