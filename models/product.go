@@ -5,7 +5,7 @@ type Product struct {
 	EAN                  string   `json:"ean"` // Barcode
 	Title                string   `json:"title"`
 	Description          string   `json:"description"`
-	ELID                 string   `json:"elid"` // Possibly an external listing ID
+	ELID                 string   `json:"el_id"` // Possibly an external listing ID
 	Brand                string   `json:"brand"`
 	Model                string   `json:"model"`
 	Color                string   `json:"color"`
