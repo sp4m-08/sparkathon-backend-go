@@ -15,6 +15,7 @@ type Product struct {
 	Category             string   `json:"category"`
 	LowestRecordedPrice  float64  `json:"lowest_recorded_price"`
 	HighestRecordedPrice float64  `json:"highest_recorded_price"`
+	Warranty             string   `json:"warranty"`
 	Images               []string `json:"images" gorm:"-"`
 	Offers               []string `json:"offers" gorm:"-"`
 }
